@@ -1,6 +1,25 @@
 .baner {
-    background-image: url(../../../image/baner.png);
-    background-repeat: no-repeat;
-    height: 363px;
+    background: url(../../../image/baner-bg.png)  no-repeat center;
+    min-height: 363px;
     margin-top: 65px;
+}
+
+.baner__content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.baner__couple {
+    width: 487px;
+    height: 341px;
+    margin-top: 21px;
+}
+
+.baner__title {
+    font-size: 48px;
+    line-height: 65px;
+    color: #ffffff;
+    width: 594px;
+    height: 130px;
 }
