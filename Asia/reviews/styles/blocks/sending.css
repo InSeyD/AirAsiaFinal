@@ -44,3 +44,7 @@
     margin-right: 74px;
     font-size: 18px;
 }
+
+.sending__form:hover {
+    border: 1px solid #F5170E;
+}
