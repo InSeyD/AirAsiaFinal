@@ -7,6 +7,11 @@
     font-size: 14px;
 }
 
+.menu__link:hover {
+    color: #F5170E;
+    transition: 0.5s;
+}
+
 .menu__item:last-child {
     margin-right: 0;
 }

@@ -70,3 +70,7 @@
 .sending__buttons {
     display: flex;
 }
+
+.sending__checkbox {
+    display: none;
+}
