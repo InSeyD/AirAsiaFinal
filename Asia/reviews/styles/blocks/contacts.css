@@ -6,24 +6,46 @@
 .contacts__tel {
     font-size: 26px;
     margin-left: 36px;
+    position: relative;
 }
 
 .graph {
     color: #FFF;
     font-size: 13px;
-    margin-left: 111px;
+    margin-left: 129px;
 }
 
 .graph__hover {
-    position: relative;
-    display: none;
+    width: 160px;
+    height: 70px;
+    background: #EDEDED;
+    border-radius: 5px;
+    color: #1E1F20;
+    padding-top: 10px;
+    display: ;
+    opacity: 0.8px;
+    transition: 1s;
+    left: 10px;
+}
+
+.graph__time {  
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 21px;
+    margin: 0px 19px;
+}
+
+.graph__lunch {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 21px;
+    margin: 0 0 15px 19px;
 }
 
 .graph:hover .graph__hover {
     display: block;
     position: absolute;
-    margin-left: -60px;
-    margin-top: -21px;
+    transition: 1s;
 }
 
 .contacts__free-call {
