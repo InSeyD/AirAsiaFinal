@@ -48,3 +48,25 @@
     margin-right: 74px;
     font-size: 18px;
 }
+
+.seending__choice-lab {
+    cursor: pointer;
+}
+
+.sending__checkbox:checked ~ .tag--check {
+    background: #B9EAE4;
+}
+
+.sending__choice-table {
+    display: flex;
+    flex-direction: column;
+}
+
+.sending__choice-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sending__buttons {
+    display: flex;
+}
