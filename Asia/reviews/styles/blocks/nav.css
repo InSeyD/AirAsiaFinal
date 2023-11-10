@@ -6,3 +6,7 @@
     margin-right: 54px;
     font-size: 14px;
 }
+
+.menu__item:last-child {
+    margin-right: 0;
+}
