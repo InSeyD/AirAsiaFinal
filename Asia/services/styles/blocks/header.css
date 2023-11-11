@@ -2,8 +2,7 @@
     display: flex;
     height: 412px;
     flex-direction: column;
-    background-image: url(../../../image/headline\ 1.png);
-    background-repeat: no-repeat;
+    background: url(../../../image/headline\ 1.png) no-repeat center;
     }
 
 .header__first {

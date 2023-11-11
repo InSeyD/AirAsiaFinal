@@ -6,7 +6,6 @@
 .contacts__tel {
     font-size: 26px;
     margin-left: 36px;
-    position: relative;
 }
 
 .graph {
@@ -15,41 +14,70 @@
     margin-left: 129px;
 }
 
+.contacts__graph {
+    position: relative;
+}
+
 .graph__hover {
-    width: 160px;
-    height: 70px;
+    width: 150px;
+    height: 65px;
     background: #EDEDED;
-    border-radius: 5px;
+    border-radius: 3px;
     color: #1E1F20;
     padding-top: 10px;
-    display: ;
-    opacity: 0.8px;
+    display: none;
     transition: 1s;
-    left: 10px;
+    position: absolute;
+    right: 0;
+    top: 23px;
 }
+
 
 .graph__time {  
     font-size: 13px;
     font-weight: 700;
     line-height: 21px;
-    margin: 0px 19px;
+    margin: 0px 14px;
 }
 
 .graph__lunch {
     font-size: 13px;
     font-weight: 600;
     line-height: 21px;
-    margin: 0 0 15px 19px;
+    margin: 0 0 15px 14px;
 }
 
 .graph:hover .graph__hover {
     display: block;
-    position: absolute;
     transition: 1s;
+}
+
+.graph__hover::before {
+    content: "";
+    display: block;
+    height: 65px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    top: 23px;
+
 }
 
 .contacts__free-call {
     color: #9A9A9A;
     font-size: 11px;
-    margin-left: 27px;     
+    margin-left: 63px;     
+}
+
+.graph__tri {
+    border: 10px solid transparent;
+    border-top-color: #EDEDED;
+    transform: rotate(180deg);
+    top: -18px;
+    right: 44px;
+    position: absolute;
+}
+
+.contacts__graph:hover {
+    text-decoration: underline;
 }

@@ -76,3 +76,24 @@
         color: #F5170E;
         border-color: #F5170E;
 }
+
+input {
+    border: 1px solid transparent;
+}
+
+textarea {
+    resize: none;
+}
+
+.button--black {
+    background: #2B2B2B;
+}
+
+.tag {
+    display: inline-flex;
+    height: 37px;
+    background: #E7E7E7;
+    border-radius: 35px;
+    padding: 0 15px;
+    align-items: center;
+}

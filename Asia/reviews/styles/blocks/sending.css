@@ -47,14 +47,7 @@
 .sending__choice-title {
     margin-right: 74px;
     font-size: 18px;
-}
-
-.seending__choice-lab {
-    cursor: pointer;
-}
-
-.sending__checkbox:checked ~ .tag--check {
-    background: #B9EAE4;
+    width: 40%;
 }
 
 .sending__choice-table {
@@ -65,12 +58,40 @@
 .sending__choice-list {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: -9px;
+    margin-right: -112px;
 }
 
-.sending__buttons {
-    display: flex;
+.seending__choice-lab {
+    cursor: pointer;
+}
+
+.sending__choice-item {
+    margin-right: 7px;
+    font-size: 13px;
+    margin-bottom: 9px;
+}
+
+.sending__checkbox:checked ~ .tag--check {
+    background: #B9EAE4;
 }
 
 .sending__checkbox {
     display: none;
+}
+
+.sending__buttons {
+    display: flex;
+    justify-content: end;
+    margin-top: 32px;
+    margin-bottom: 96px;
+}
+
+.sending__buttons-item {
+    font-size: 14px;
+    margin-right: 17px;
+}
+
+.sending__buttons-item:last-child {
+    margin-right: 0;
 }

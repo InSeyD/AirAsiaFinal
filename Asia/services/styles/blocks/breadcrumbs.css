@@ -10,3 +10,7 @@
 .breadcrumbs__item--activ {
     font-weight: bold;
 }
+
+.breadcrumbs__link:hover {
+    text-decoration: underline;
+}

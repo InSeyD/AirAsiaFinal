@@ -1,6 +1,7 @@
 .reviews__table {
     column-count: 2;
-    margin-top: 98px;
+    column-gap: 26px;
+    margin-top: 80px;
 }
 
 .reviews__item-avatar {
