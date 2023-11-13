@@ -1,55 +1,19 @@
 .about {
-    display: inline-block;
-    height: 552px;
-    margin-top: 124px;
-    margin-bottom: 100px;
+   margin-top: 145px;
 }
 
-.about__img {
-    display: inline-block;
+.about__gate {
     width: 490px;
     height: 505px;
-    vertical-align: top;
-    margin-bottom: 47px;
-}
-
-.about__bg {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0px;
-    top: 0px;
-    border-radius: 5px;
-    overflow: hidden;
-}
-
-.about__text {
+    background-image: url(../../../image/gates.png);
     position: relative;
-    margin-top: 37px;
-    padding-left: 81px;
-    font-size: 16px;
-}
+}   
 
-.about__title {
-    position: relative;
-    font-size: 36px;
-    padding-left: 81px;
-}
-
-.about__content {
-    background: #fff;
-    display: inline-block;
-    position: relative;
-    color: #000;
-    width: 745px;
+.about__mountain {
+    display: flex;
+    flex-direction: column;
+    width: 785px;
     height: 455px;
-    padding: 70px 50px 65px 50px;
-    margin-top: 97px;
-    margin-left: -100px;
-}
-
-.about__button {
-   position: relative; 
-   margin-top: 43px;
-   margin-left: 81px;
+    background-image: url(../../../image/mountains.png);
+    position: absolute;
 }
