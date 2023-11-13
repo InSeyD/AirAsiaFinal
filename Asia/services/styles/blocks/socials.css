@@ -1,11 +1,11 @@
 .socials {
     display: flex;
-    margin-left: 275px;
+    margin-left: 234px;
 }
 
 .socials__item {
     display: flex;
-    margin-right: 10px;
+    margin-right: 49px;
 }
 
 .socials__list {
@@ -17,8 +17,86 @@
     margin-right: 0px;
 }
 
+.socials__item-t {
+    position: relative;
+}
 
-.socials__icon:hover {
-    -webkit-filter: brightness(200%);
-    filter: brightness(200%);
+.socials__item-t::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    width: 36px;
+    border-radius: 50%;
+    height: 36px;
+    background: url(../../../image/sprire_socials.png) -122px -10px;
+}
+
+.socials__item-t:hover::after {
+    background-position: -122px -66px;
+}
+
+.socials__item-vk {
+    position: relative;
+}
+
+.socials__item-vk::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    width: 36px;
+    border-radius: 50%;
+    height: 36px;
+    background: url(../../../image/sprire_socials.png) -10px -122px;
+}
+
+.socials__item-vk:hover::after {
+    background-position: -66px -122px;
+}
+
+.socials__item-f {
+    position: relative;
+}
+
+.socials__item-f::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    width: 36px;
+    border-radius: 50%;
+    height: 36px;
+    background: url(../../../image/sprire_socials.png) -66px -10px;
+}
+
+.socials__item-f:hover::after {
+    background-position: -10px -10px;
+}
+
+.socials__item-in {
+    position: relative;
+}
+
+.socials__item-in::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    width: 36px;
+    border-radius: 50%;
+    height: 36px;
+    background: url(../../../image/sprire_socials.png) -10px -66px;
+}
+
+.socials__item-in:hover::after {
+    background-position: -66px -66px;
 }
