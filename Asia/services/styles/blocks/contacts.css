@@ -1,11 +1,12 @@
 .contacts {
     margin-left: auto;
+    text-align: end;
     
 }
 
+
 .contacts__tel {
     font-size: 26px;
-    margin-left: 36px;
 }
 
 .graph {
