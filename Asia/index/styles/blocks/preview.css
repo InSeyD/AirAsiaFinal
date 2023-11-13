@@ -1,0 +1,18 @@
+.preview {
+    display: inline-block;
+    margin-top: 46px;
+}
+
+.preview__title {
+    margin-top: 47px;
+    font-size: 72px;
+}
+
+.peview__info {
+    margin-top: 28px;
+    font-size: 18px;
+}
+
+.preview__button {
+    margin-top: 33px;
+}

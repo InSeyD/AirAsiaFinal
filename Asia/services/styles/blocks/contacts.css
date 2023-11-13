@@ -4,7 +4,6 @@
     
 }
 
-
 .contacts__tel {
     font-size: 26px;
 }
@@ -12,11 +11,11 @@
 .graph {
     color: #FFF;
     font-size: 13px;
-    margin-left: 129px;
 }
 
 .contacts__graph {
     position: relative;
+    color: #98A4A8
 }
 
 .graph__hover {
@@ -45,7 +44,7 @@
     font-size: 13px;
     font-weight: 600;
     line-height: 21px;
-    margin: 0 0 15px 14px;
+    margin-right: 24px;
 }
 
 .graph:hover .graph__hover {
@@ -66,8 +65,7 @@
 
 .contacts__free-call {
     color: #9A9A9A;
-    font-size: 11px;
-    margin-left: 63px;     
+    font-size: 11px;   
 }
 
 .graph__tri {
@@ -81,4 +79,5 @@
 
 .contacts__graph:hover {
     text-decoration: underline;
+    color: #ffffff;
 }
