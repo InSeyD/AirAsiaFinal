@@ -12,6 +12,7 @@
     background-image: url(../../image/1.jpg), url(../../image/2.png);
     background-position: top, bottom;
     background-repeat: no-repeat, no-repeat;
+    background-size:  1920px 1202px, 1920px 893px;
    }
 
 
@@ -95,6 +96,9 @@
         border-color: #F5170E;
 }
 
+.button--about {
+    width: 168px;
+}
 
 input {
     border: 1px solid transparent;
