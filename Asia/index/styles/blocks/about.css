@@ -1,5 +1,7 @@
 .about {
    margin-top: 145px;
+   height: 552px;
+   margin-bottom: 54px;
 }
 
 .about__gate {
@@ -10,10 +12,15 @@
 }   
 
 .about__mountain {
-    display: flex;
-    flex-direction: column;
     width: 785px;
     height: 455px;
     background-image: url(../../../image/mountains.png);
     position: absolute;
+    left: 355px;
+    bottom: -46px;
+}
+
+.about__mountain-content {
+    display: flex;
+    flex-direction: column;
 }
