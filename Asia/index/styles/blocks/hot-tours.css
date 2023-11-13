@@ -4,26 +4,32 @@
 }
 
 .hot-tours__title {
-    font-size:36px;
     margin-bottom: 51px;
+    display: flex;
+    align-items: center;
 }
 
 .hot-tours__title-text {
-    display: inline-block;
+    font-size: 36px;
+    color: #FFFFFF;
 }
 
+.hot-tours__title-icon {
+    width: 21px;
+    height: 28px;
+    margin-left: 12px;
+}
+
+.hot-tours__list {
+    display: flex;
+    justify-content: space-between;
+}
 
 .hot-tours__item {
     background: #fff;
-    display: inline-block;
-    width: 361px;
-    margin-right: 27px;
+    width: 362px;
     color: #000;
-}
-
-.hot-tours__item:last-child {
-    margin-right: 0;
-    width: 354px;
+    border-radius: 5px;
 }
 
 .hot-tours__image {
@@ -33,6 +39,7 @@
 
 .hot-tours__options-icon {
     vertical-align: middle;
+    margin-right: 10px;
 }
 
 

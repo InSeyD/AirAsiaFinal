@@ -4,51 +4,53 @@
 
 .news__title {
     margin-bottom: 51px;
-    font-family: Open Sans;
     font-size: 36px;
-    font-weight: 700;
-    line-height: 49px;
-    letter-spacing: 0px;
-    text-align: left;
+    color: #FFFFFF;
 }
 
-.news__date {
-    display: inline-block;
-    margin-bottom: 13px;
-    color: #fff;
-    position: relative;
+.news__list {
+    display: flex;
+    justify-content: space-between;
 }
 
 .news__item {
-    display: inline-block;
-    width: 555px;
+    display: flex;
+    width: 557px;
     height: 394px;
-    margin-right: 25px;
-    background: #fff;
-    color: #000;
     position: relative;
+    border-radius: 5px;
 }
 
+.news__item--plane {
+    background-image: url(../../../image/plain.png);
+}
 
-.news__item:last-child {
-    margin-right: 0;
- 
+.news__item--surf {
+    background-image: url(../../../image/Surfer.png);
 }
 
 .news__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 30px;
     position: absolute;
-    bottom: 48px;
-    padding-left: 31px;
+    top: 252px;
 }
 
 .news__subtitle {
     font-size: 24px;
-    letter-spacing: 0px;
     color: #fff;
     
 }
 
+.news__date {
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
 .news__text {
-    margin-top: 4px;
-    color: #fff;  
+    color: #fff;
+    margin-top: 3px;
 }

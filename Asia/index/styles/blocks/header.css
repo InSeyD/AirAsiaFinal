@@ -1,14 +1,13 @@
 .header {
     display: flex;
-    height: 412px;
+    height: 123px;
     flex-direction: column;
-    background: url(../../../image/headline\ 1.png) no-repeat center;
+    margin-top: 26px;
     }
 
 .header__first {
     display: flex;
     align-items: center;
-    margin-top: 29px;
 }
 
 .header__second {

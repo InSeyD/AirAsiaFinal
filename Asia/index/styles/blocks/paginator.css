@@ -1,33 +1,30 @@
 .paginator {
     text-align: center;
-    margin-top: 65px;
-    display: flex;
-    justify-content: center;
-    font-size: 16px;
-    align-items: center;
+    margin-top: 54px; 
 }
 
-.paginator__list {
-    display:flex;
-    margin-left: 25px; 
+.paginator__display {
+    color: #FFFFFF;
 }
 
-.paginator__item {
-    display: flex;
-    font-weight: 700;
+.paginator__display, .paginator__list, .paginator__item {
+    display: inline-block;
 }
+
 
 .paginator__link {
+    display: inline-block;
     height: 32px;
     width: 32px;
     background: transparent;
     border-radius: 50%;
     line-height: 32px;
-    color: black;
+    color: #fff;
     transition: .4s;
 }
 
 .paginator__link:hover {
-    color: white;
-    background: #F5170E;
+    color: #F5170E;
+    background: #fff;
 }
+

@@ -1,11 +1,12 @@
 .preview {
     display: inline-block;
     margin-top: 46px;
+    color: #FFFFFF;
 }
 
 .preview__title {
-    margin-top: 47px;
     font-size: 72px;
+    width: 511px;
 }
 
 .peview__info {
