@@ -32,15 +32,16 @@
     </head>
 <body>
     <div class="wrapper">
-        <div class="container">
         <header class="header">
+            <div class="container">
+                <div class="header__first">
             <div class="logo">
                 <a href="" class="logo__link"><img src="../image/logo.png" alt="logo" class="logo__icon"></a>
             </div>
             <nav class="menu">
                 <ul class="menu__list">
                     <li class="menu__item">
-                        <a href="#" class="menu__link">Главная</a>
+                        <a href="../index/index.html" class="menu__link">Главная</a>
                     </li>
                     <li class="menu__item">
                         <a href="../services/services.html" class="menu__link">Услуги</a>
@@ -52,21 +53,42 @@
             </nav>
             <address class="contacts">
                 <a href="tel:+78007003030" class="contacts__tel">8 800 700 30 30</a>
+                <br>
                 <div class="graph">
-                <span class="contacts__graph">График работы</span>
-                <img src="../image/graph.png" alt="graph" class="graph__hover">
+                <div class="contacts__graph">График работы
+                    <div class="graph__hover">
+                    <div class="graph__tri"></div>
+                    <div class="graph__time">пн-вс: 09:00 - 20:00</div>
+                    <div class="graph__lunch">Обед: 14:00-14:30</div>
+                </div>
+                </div>
                 </div>
             </address>
+                </div>
+                <nav class="breadcrumbs">
+                <ul class="breadcrumbs__list">
+                    <li class="breadcrumbs__item">
+                        <a href="../index/index.html" class="breadcrumbs__link">Главная /</a>
+                    </li>
+                    <li class="breadcrumbs__item breadcrumbs__item--activ">
+                        <a href="./reviews.html" class="breadcrumbs__link"> Отзывы</a>
+                    </li>
+                </ul>     
+                </nav>
+            </div>
         </header>
         <main class="main">
             <section class="preview">
+                <div class="container">
                 <h1 class="preview__title">Авторские <br> туры по Азии</h1>
                 <p class="peview__info">Открой для себя Азию</p>
                 <div class="preview__button">
                     <button class="button">Подробнее</button>
                 </div>
+                </div>
             </section>
             <section class="hot-tours">
+                <div class="container">
                 <div class="hot-tours__title">
                     <h2 class="hot-tours__title-text">Горящие туры</h2>
                     <img src="../image/flame.png" alt="flame" class="hot-tours__title-icon">
@@ -139,9 +161,10 @@
                         </div>
                     </li>
                 </ul>
-            
+                </div>
             </section>
             <section class="news">
+                <div class="container">
                 <h2 class="news__title">Новости и акции</h2>
                 <ul class="news__list">
                     <li class="news__item">
@@ -192,9 +215,11 @@
                             <a href="" class="paginator__link">7</a>
                         </li>
                     </ul>
-                </div>            
+                </div> 
+                </div>           
             </section>
             <section class="about">
+                <div class="container">
                 <img src="../image/gates.jpg" alt="" class="about__img">
                 <div class="about__content">
                     <img src="../image/mountains.jpg" alt="" class="about__bg">
@@ -206,45 +231,47 @@
                         <button class="button">Подробнее</button>
                     </div>
                 </div>
+                </div>
             </section>
         </main>
         <footer class="footer">
+            <div class="container container--footer">
             <div class="logo">
                 <a href="#" class="logo__link"> <img src="../image/logo.png" alt="Логотип" class="logo__icon"></a>
             </div>
             <nav class="menu">
                 <ul class="menu__list">
                     <li class="menu__item">
-                        <a href="#" class="menu_link">Главная</a>
+                        <a href="../index/index.html" class="menu__link">Главная</a>
                     </li>
                     <li class="menu__item">
-                        <a href="#" class="menu_link">Услуги</a>
+                        <a href="../services/services.html" class="menu__link">Услуги</a>
                     </li>
                     <li class="menu__item">
-                        <a href="#" class="menu_link">Отзывы</a>
+                        <a href="#" class="menu__link">Отзывы</a>
                     </li>
                 </ul>
             </nav>
             <div class="socials">
                 <ul class="socials__list">
                     <li class="socials__item">
-                        <a href="" class="socials__item">
-                            <img src="../image/t.png" alt="telegram" class="socials__icon">
+                        <a href="" class="socials__link">
+                            <div class="socials__item-t"></div>
                         </a>
                     </li>
                     <li class="socials__item">
-                        <a href="" class="socials__item">
-                            <img src="../image/vk.png" alt="vk" class="socials__icon">
+                        <a href="" class="socials__link">
+                            <div class="socials__item-vk"></div>
                         </a>
                     </li>
                     <li class="socials__item">
-                        <a href="" class="socials__item">
-                            <img src="../image/facebook 1.png" alt="facebook" class="socials__icon">
+                        <a href="" class="socials__link">
+                            <div class="socials__item-f"></div>
                         </a>
                     </li>
                     <li class="socials__item">
-                        <a href="" class="socials__item">
-                            <img src="../image/in.png" alt="instagram" class="socials__icon">
+                        <a href="" class="socials__link">
+                            <div class="socials__item-in"></div>     
                         </a>
                     </li>
                 </ul>
@@ -253,7 +280,7 @@
                 <div class="contacts__free-call">Бесплатный звонок по России</div>
                 <a href="tel:+78007003030" class="contacts__tel">8 800 700 30 30</a>
             </address>
+            </div>
         </footer>
-        </div>
     </div>    
 </body>

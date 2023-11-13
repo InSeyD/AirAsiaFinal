@@ -1,0 +1,83 @@
+.contacts {
+    margin-left: auto;
+    text-align: end;
+    
+}
+
+.contacts__tel {
+    font-size: 26px;
+}
+
+.graph {
+    color: #FFF;
+    font-size: 13px;
+}
+
+.contacts__graph {
+    position: relative;
+    color: #98A4A8
+}
+
+.graph__hover {
+    width: 160px;
+    height: 65px;
+    background: #EDEDED;
+    border-radius: 3px;
+    color: #1E1F20;
+    padding-top: 10px;
+    display: none;
+    transition: 1s;
+    position: absolute;
+    right: 0;
+    top: 23px;
+}
+
+
+.graph__time {  
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 21px;
+    margin: 0px 14px;
+}
+
+.graph__lunch {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 21px;
+    margin-right: 24px;
+}
+
+.graph:hover .graph__hover {
+    display: block;
+    transition: 1s;
+}
+
+.graph__hover::before {
+    content: "";
+    display: block;
+    height: 65px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    top: 23px;
+
+}
+
+.contacts__free-call {
+    color: #9A9A9A;
+    font-size: 11px;   
+}
+
+.graph__tri {
+    border: 10px solid transparent;
+    border-top-color: #EDEDED;
+    transform: rotate(180deg);
+    top: -18px;
+    right: 44px;
+    position: absolute;
+}
+
+.contacts__graph:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
