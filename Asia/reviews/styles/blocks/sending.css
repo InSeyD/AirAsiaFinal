@@ -22,7 +22,7 @@
     color: #1A1B1E;
 }
 
-.sending__form:active {
+.sending__form:hover {
     border-color: red;
 }
 
