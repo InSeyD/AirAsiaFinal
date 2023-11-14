@@ -77,6 +77,16 @@
         border-color: #F5170E;
 }
 
+.button--hover-red:hover {
+    background: #DA0100;
+    transition: 0.5s;
+}
+
+.button--black-hover:hover {
+    background: #8E8E8E;
+    transition: 0.5s;
+}
+
 input {
     border: 1px solid transparent;
 }
