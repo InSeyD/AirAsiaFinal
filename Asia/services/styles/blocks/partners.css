@@ -32,4 +32,9 @@
     flex: 1;
     justify-content: space-between;
     margin-right: 56px;
+    filter: grayscale(1);
+}
+
+.partners__item:hover {
+    filter: grayscale(0)
 }
