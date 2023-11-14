@@ -1,0 +1,17 @@
+.breadcrumbs__list {
+    display: flex;
+}
+
+.breadcrumbs__link {
+    font-size: 14px;
+    color: #9A9A9A;
+}
+
+.breadcrumbs__item--activ {
+    font-weight: bold;
+}
+
+.breadcrumbs__link:hover {
+    text-decoration: underline;
+    transition: 0.5s;
+}
