@@ -51,33 +51,22 @@
     transition: 1s;
 }
 
-.graph__hover::before {
-    content: "";
-    display: block;
-    height: 65px;
-    left: 0;
-    right: 0;
-    position: absolute;
-    top: 23px;
-
-}
-
 .contacts__free-call {
     color: #9A9A9A;
     font-size: 11px;   
-}
-
-.graph__tri {
-    border: 10px solid transparent;
-    border-top-color: #EDEDED;
-    transform: rotate(180deg);
-    top: -18px;
-    right: 44px;
-    position: absolute;
 }
 
 .contacts__graph:hover {
     text-decoration: underline;
     color: #ffffff;
     transition: 0.5s;
+}
+
+.graph__hover::before {
+    content: "";
+    position: absolute;
+    border: 10px solid #EDEDED;
+    right: 45px;
+    top: -5px;
+    transform: rotate(45deg);
 }
