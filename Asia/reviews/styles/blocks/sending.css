@@ -82,10 +82,6 @@
 
 .sending__buttons {
     display: flex;
-    justify-content: end;
-    margin-top: 32px;
-    margin-bottom: 96px;
-    width: 353px;
     justify-content: space-between;
-    margin-left: 342px;
+    margin: 32px 0 96px 342px;
 }
