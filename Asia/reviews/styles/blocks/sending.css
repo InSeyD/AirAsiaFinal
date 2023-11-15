@@ -47,7 +47,7 @@
 .sending__choice-title {
     margin-right: 74px;
     font-size: 18px;
-    width: 40%;
+    width: 42%;
 }
 
 .sending__choice-table {
@@ -59,7 +59,7 @@
     display: flex;
     flex-wrap: wrap;
     margin-bottom: -9px;
-    margin-right: -112px;
+    margin-right: -7px;
 }
 
 .seending__choice-lab {
@@ -85,13 +85,7 @@
     justify-content: end;
     margin-top: 32px;
     margin-bottom: 96px;
-}
-
-.sending__buttons-item {
-    font-size: 14px;
-    margin-right: 17px;
-}
-
-.sending__buttons-item:last-child {
-    margin-right: 0;
+    width: 353px;
+    justify-content: space-between;
+    margin-left: 342px;
 }
